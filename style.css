@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* For Header Part*/
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(./images/Header.png);
+  background-size: 100% 100vh;
+  background-position: center;
+  padding: 10px 8%;
+}
+.newposter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.hoverl {
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 30px;
+}
+.btn {
+  background: #bf2026;
+  color: White;
+  padding: 8px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.navlinks li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #023459;
+}
+
+.submit {
+  background: #bf2026;
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.headerh1 {
+  color: #023459;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 51px;
+}
+
+/*For Sections*/
+
+.sec1 {
+  height: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  padding-top: 60px;
+}
+
+.box2 {
+  height: 500px;
+  width: 40%;
+  padding: 50px;
+}
+
+.box1 {
+  height: 500px;
+  width: 40%;
+
+  padding: 50px;
+}
+.box1 p {
+  margin-top: 10px;
+}
+.box4 p {
+  margin-top: 10px;
+}
+.autoimg {
+  margin-left: 170px;
+}
+.eduimg {
+  margin-left: 170px;
+}
+.persoimg {
+  margin-left: 170px;
+}
+
+.learnbtn {
+  background: #bf2026;
+  color: white;
+  width: 160px;
+  height: 60px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.box3 {
+  height: 500px;
+  width: 40%;
+  padding: 40px;
+}
+.box4 {
+  height: 500px;
+  width: 40%;
+
+  padding: 40px;
+}
+
+.mainbox {
+  height: 550px;
+  width: 100%;
+  background: #e7f2f2;
+}
+
+/* Why Choose Us */
+.mainbox h1 {
+  color: #003459;
+  text-align: center;
+  padding-top: 60px;
+}
+.whyboxes {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subboxes {
+  height: 400px;
+  width: 250px;
+
+  margin: 5px;
+
+  padding: 25px;
+}
+
+.subboxes p {
+  font-size: 14px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.whyicon {
+  margin-left: 40px;
+}
+
+/* Testimonials*/
+
+.mainbox2 {
+  height: 650px;
+  width: 100%;
+  background: url(./images/background-03.png);
+  background-size: 100% 650px;
+  background-position: center;
+  display: flex;
+
+  align-items: center;
+}
+
+.testbox3 {
+  height: 300px;
+  width: 430px;
+
+  margin-left: 100px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+  padding: 30px;
+}
+.testbox2 {
+  height: 300px;
+  width: 430px;
+
+  margin-left: 100px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+  padding: 30px;
+}
+.testbox1 {
+  height: 250px;
+  width: 300px;
+
+  margin-left: 40px;
+}
+.firsttest {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.firsttest p {
+  margin-left: 30px;
+}
+.testpara1 {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-right: 30px;
+  text-align: justify;
+  font-size: 14px;
+}
+.testhead {
+  text-align: center;
+  margin-top: 65px;
+  color: #003459;
+  font-size: 35px;
+}
+
+.small1 {
+  margin-left: 125px;
+  margin-top: 30px;
+}
+.name1 {
+  margin-left: 117px;
+  margin-top: 35px;
+}
+.para1 {
+  margin-top: 60px;
+  font-size: 17px;
+}
+.footerbg {
+  background: #e7f2f2;
+  height: 420px;
+  width: 100%;
+}
+.footnav {
+  height: 200px;
+  width: 100%;
+
+  display: flex;
+  color: #bf2026;
+}
+ul {
+  margin-left: 200px;
+  list-style: none;
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.addr {
+  margin-left: 200px;
+  margin-top: 55px;
+  font-size: 18px;
+}
+.footnav2 {
+  height: 150px;
+  width: 100%;
+
+  text-align: center;
+  color: #bf2026;
+}
+span {
+  margin-left: 20px;
+}
+.footnav2 p {
+  padding-top: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.final {
+  margin-left: 140px;
+  color: #bf2026;
+  margin-top: 15px;
+}
+.final span {
+  margin-left: 80px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.final span:hover {
+  color: blue;
+}
+ul li:hover {
+  color: blue;
+}
+ul li {
+  margin-top: 8px;
+}
+.hoverl:hover {
+  color: #bf2026;
+}
+.btn:hover {
+  color: white;
+}
+
+.link-active {
+  text-decoration: underline !important;
+}
+.footerlogo {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.ullist {
+  margin-top: 55px;
+}
