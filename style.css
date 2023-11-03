@@ -41,7 +41,7 @@ nav {
   margin-top: 30px;
 }
 .btn {
-  background: #2065bf;
+  background: rgb(191, 43, 32);
   color: White;
   padding: 8px 25px;
   border-radius: 3px;
@@ -55,7 +55,7 @@ nav {
 }
 
 .submit {
-  background: #2095bf;
+  background: #bf2020;
   color: rgb(246, 238, 238);
   padding: 15px 40px;
   border: none;
