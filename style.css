@@ -20,7 +20,7 @@ header {
   flex-direction: column;
 }
 .logo {
-  width: 200px;
+  width: 300px;
   cursor: pointer;
 }
 nav {
